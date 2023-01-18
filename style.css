@@ -1,2 +1,143 @@
-*{ margin: 0;}
-.bloc1{ border: 2 px green;}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+</style>
+
+
+*{ margin: 0;
+   padding: 0;
+   box-sizing: border-box; }
+
+body{background-color: hsl(217, 54%, 11%);   
+} 
+
+.bloc0{ display: flex;
+       justify-content: center;/*pour centrer horizontalement*/
+       ;
+       align-items: center;
+       height: 100vh;
+       color: hsl(0, 0%, 100%)
+       
+       
+       
+       
+        
+}
+
+.bloc1{ ;
+       height: 500px;
+       width: 300px;
+       background-color:hsl(216, 50%, 16%);
+       border-radius: 1rem;
+       font-family: 'Outfit', sans-serif;   
+}
+
+.bloc2 {;
+           height: 50%;
+           border-radius: 1rem;
+           margin: 13px; 
+
+}
+
+.bloc2 img {width: 100%;
+height: 100%; 
+border-radius: 1rem;
+}
+
+.bloc3 {
+    height: 28%;
+    justify-content: center;
+    align-items: center;
+   color: hsl(215, 51%, 70%);
+   font-size: 14px;
+   margin: 13px;
+
+   
+
+}
+
+.bloc3 p{margin-top: 10px;
+}
+.haut{;
+    height: 70%;
+
+}
+
+.petit {display: flex;
+   ;
+justify-content: space-between;
+height: 30%;
+border-bottom: 0.1px groove hsl(215, 51%, 70%);
+
+
+
+}
+
+.ETH{width: 30%;
+    ;
+   display: flex;
+   align-items: center;
+justify-content: start;  
+ 
+    
+
+}
+.icone{width: 10px; 
+ align-items: center;
+}
+
+.text{font-size: 80%;
+    margin-left: 5px;
+    font-weight: 700;
+    color: hsl(178, 100%, 50%);
+  
+}
+
+.date{;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+
+
+}
+
+
+.date img{ height: 14px;
+    margin-right: 5px;
+}
+
+.textdate{font-size: 13px;
+    font-weight: 550;
+
+}
+
+
+.foot img{height: 27px;
+    width: 27px; 
+    border: 1px solid white;
+    border-radius: 100%;
+    
+
+
+
+}
+
+footer{;
+height: 40px;
+display: flex;
+margin-top: 5%;
+align-items: center;
+}
+
+.textfooter{font-size: small;
+    margin-left:5%;
+    display: flex;
+
+}
+
+.findetexte{margin-left: 3px;
+color: white;
+}
+
+
